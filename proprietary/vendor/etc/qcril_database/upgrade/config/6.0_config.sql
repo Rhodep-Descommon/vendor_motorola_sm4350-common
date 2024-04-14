@@ -62,8 +62,8 @@ INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.sw_mbn_volte", "true");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.sw_mbn_openmkt", "true");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.long_iin_mbn", "false");
-INSERT OR REPLACE INTO qcril_properties_table(property) VALUES("persist.vendor.radio.msim.stackid_0");
-INSERT OR REPLACE INTO qcril_properties_table(property) VALUES("persist.vendor.radio.msim.stackid_1");
+INSERT OR REPLACE INTO qcril_properties_table(property, def_val, value) VALUES("persist.vendor.radio.msim.stackid_0", "0", "0");
+INSERT OR REPLACE INTO qcril_properties_table(property, def_val, value) VALUES("persist.vendor.radio.msim.stackid_1", "1", "1");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.do_not_init_csvt", "0");
 INSERT OR REPLACE INTO qcril_properties_table(property) VALUES("persist.vendor.env.spec");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.apm_sim_not_pwdn", "1");

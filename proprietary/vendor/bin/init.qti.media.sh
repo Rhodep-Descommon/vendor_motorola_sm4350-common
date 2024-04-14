@@ -106,7 +106,7 @@ case "$target" in
         ;;
     "msmnile")
         setprop vendor.media.target_variant "_msmnile"
-        if [ $product == "msmnile_gvmq" ] || [ $product == "msmnile_gvmgh" ]; then
+        if [ $product == "msmnile_gvmq" ]; then
             case "$soc_hwid" in
                 460)
                     setprop vendor.media.target_variant "_direwolf"
